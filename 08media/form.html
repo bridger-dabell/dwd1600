@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>How to Play Violin: Home</title>
+        <link rel="stylesheet" href="violin.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
+        <meta name="description" content="Learn more about how to play the Violin">
+        <meta name="author" content="Bridger DaBell">
+    </head>
+<!--Start of header-->
+    <body>
+        <header>
+          <img src="images/logo.png" alt="site logo" width="110" height="100">
+          <div>
+            <h1>How to Play Violin</h1>
+            <p>Everything you need to know</p>
+          </div>
+        </header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="instructions.html">How to's</a></li>
+        <li><a href="images.html">Images</a></li>
+        <li class="active"><a href="form.html">Forms</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="why.html">Why Us</a></li>
+    </ul>
+</nav>
+<!--Start of Body-->
+<main>
+    <h1>Request Help</h1>
+    <form method="get" class="myForm" action="thanks.html">
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label>First Name*<input type="text" name="fname" required /> </label>
+        <label>Last Name*<input type="text" name="lname" required /> </label>
+        <label
+          >Phone Number*<input
+            type="tel"
+            name="phone"
+            required
+            placeholder="123-456-7890"
+          />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Select Your Request</legend>
+        <label>Need Help/Tips<input type="radio" name="Request" value="tips"></label>
+        <label>Feedback<input type="radio" name="Request" value="Feedback"></label>
+        <label>Want More Content<input type="radio" name="Request" value="Content"></label>
+      </fieldset>
+
+      <fieldset>
+      <legend>Select A Way I Can Improve My Site</legend>
+        <label>Needs More Pictures<input type="checkbox" name="Request" value="tips"></label>
+        <label>Needs More Tips<input type="checkbox" name="Request" value="Feedback"></label>
+        <label>Needs More Explaination<input type="checkbox" name="Request" value="Content"></label>
+      </fieldset>
+      <fieldset>
+        <legend>Rate My Site</legend>
+        <select name="rate">
+        <option value="none">please select</option>
+        <option value="Great">Very Good</option>
+        <option value="Okay">Okay</option>
+        <option value="Meh">Meh</option>  
+        <option value="Bad">Bad</option>  
+        <option value="VBad">Very Bad</option>   
+        </select>
+      </fieldset>
+      <label>
+      <legend>If you have any comments please type them here!</legend>
+        <textarea name="comments" style=" margin-right: 100000px;"></textarea>
+      </label>
+        <input type="submit" value="Submit The Form" />
+      </form>
+    </main>
+</main>
+</body>
+<footer>
+    <p>&copy; 2024 &bull; Bridger DaBell &bull; <a href="mail to:bd041737@stu.provo.edu"> Email How To Play Violin</a></p>
